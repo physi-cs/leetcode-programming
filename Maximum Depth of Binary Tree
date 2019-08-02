@@ -7,7 +7,7 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-
+/*递归dfs
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -52,7 +52,7 @@ public:
     }
 };
 */
-//*队列层次遍历
+//*队列BFS
 class Solution{
 public:
     int maxDepth(TreeNode* root){
